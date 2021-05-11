@@ -238,3 +238,17 @@ html.theme-light #app-mount::after {
 .titleBar-AC4pGV .wordmark-2iDDfm svg {
     width: 0;
 }
+.titleBar-AC4pGV .wordmark-2iDDfm::after {
+    content: "AMOLED-Cord";
+    position: absolute;
+    font-family: "Fredoka One";
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 13px;
+    font-weight: 550;
+    top: 5px;
+    left: 25px;
+    width: 135px;
+}
